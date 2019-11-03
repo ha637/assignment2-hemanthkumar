@@ -1,0 +1,22 @@
+/* Change in Background color */	 
+ body{
+	   background-color:#d3d3d3;
+     }
+
+/* to change the colour of font in heading */
+
+ h2{
+        color:red;
+     }
+
+ p{
+    font-size:20px;
+    }
+	
+ div{
+    color: blue;
+ }	
+	 
+	 
+		 
+		 
