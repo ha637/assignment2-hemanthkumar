@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta> </meta>
+    <title>HTML JavaScript output on same page</title>
+	
+	<script src= "https://code.jquery.com/jquery-3.4.1.min.js"></script>
+	
+	<link rel= "stylesheet" type="text/css" href= "css/main.css" media= "all"></link>
+	
+    <script type="text/JavaScript" src= "js/main.js"> </script>
+</head>
+<body>
+<div>
+<h2 align ="left"> Student Record Management </h2>
+
+<form name="myForm">
+
+Full Name &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp  &nbsp &nbsp &nbsp &nbsp Major 
+&nbsp &nbsp &nbsp &nbsp &nbsp  &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp Year <br/>
+
+<input type="text" id = "name" name="fullname"> </input>
+
+<input type="text" id = "major" name="major"></input>
+
+<input type="text" id = "year" name="year"> </input>
+
+<input type="button" value="Add Record" onclick="addRecord()"></input>
+
+<p><strong>Entered Records:</strong></p>
+
+<div id="records"> </div>
+
+</form>
+</body>
+</html>
+
